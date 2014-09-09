@@ -33,6 +33,7 @@ if [ -z ${PROJECT_NUMBER+x} ] ; then
   exit 1
 fi
 
+cd ..
 doxygen Doxyfile
 
 if [ "$LINK_PROJECT" = true ] ; then
